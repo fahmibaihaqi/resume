@@ -1,0 +1,44 @@
+{
+  "name": "fahmibaihaqicv",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-vis": "^1.7.10",
+    "recharts": "^1.0.0-beta.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "nib": "^1.1.2",
+    "react-scripts": "1.0.7",
+    "stylus": "^0.54.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "stylus": "stylus -u nib -c -w -o public/css/style.css src/index.styl",
+    "deploy" : "npm run build&&gh-pages -d build"
+  },
+  "description": "Professional Resume CV Template in ReactJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Gresume",
+    "react",
+    "jsx"
+  ],
+  "author": "Fahmi Baihaqi",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://fahmibaihaqi.github.io/resume"
+}
